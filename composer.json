@@ -1,0 +1,19 @@
+{
+    "name": "weltpixel/magento2-weltpixel-multistore",
+    "description": "WeltPixel Multistore Module",
+    "require": {
+        "magento/module-config": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.15.9",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WeltPixel\\Multistore\\": ""
+        }
+    }
+}
+
